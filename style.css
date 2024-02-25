@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Ubuntu-regular;
+    src: url(Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+html,
+body {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image: url(5777371.jpg);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: bisque;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    font-family: Ubuntu-regular;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+.buttons > button {
+    height: 200px;
+    width: 200px;
+    font-family: Ubuntu-regular;
+    font-weight: bold;
+    font-size: 25px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.buttons > button:hover{
+    background-color: hsl(0, 52%, 30%);
+    color: wheat;
+    font-size: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#playerResult {
+    font-family: Ubuntu-regular;
+    font-size: 40px;
+    text-align: center;
+}
+#computerResult {
+    font-family: Ubuntu-regular;
+    font-size: 30px;
+    text-align: center;
+}
+
