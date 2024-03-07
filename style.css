@@ -3,13 +3,16 @@
     src: url(Ubuntu-Regular.ttf);
 }
 
-html,
+html{
+    background-image: url(5777371.jpg);
+    height: 100%;
+    width: 100%
+}
 body {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; 
-  background-image: url(5777371.jpg);
 }
 * {
   padding: 0px;
